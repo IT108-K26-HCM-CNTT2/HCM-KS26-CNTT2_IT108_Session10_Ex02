@@ -1,0 +1,17 @@
+BÁO CÁO PHÂN TÍCH I/O - HƯỚNG DẪN CÀI ĐẶT CẢM BIẾN ĐỘ ẨM TRANG TRẠI LAN
+Họ và tên: Lê Gia Bảo
+MSSV: D26TXCN02
+
+1. ĐỊNH NGHĨA INPUT (Dữ liệu đầu vào - Văn bản thô/Markdown raw):
+- Các đoạn văn bản giải thích quy trình lắp đặt phần cứng và kết nối mạng cho cảm biến.
+- Các lệnh cấu hình dòng lệnh CLI (Terminal/Shell) ngắn như `pip install`, `python setup.py`.
+- Khối mã nguồn Python thuần túy dùng để đọc dữ liệu cảm biến và kích hoạt máy bơm.
+- Bảng thô mô tả thông số kỹ thuật của cảm biến cũ và cảm biến mới.
+- Danh sách các bước kiểm tra thiết bị dạng gạch đầu dòng kết hợp hộp kiểm (checklist).
+
+2. ĐỊNH NGHĨA OUTPUT (Giao diện render chuyên nghiệp trên StackEdit/GitHub):
+- Inline Code (`code`): Hiển thị nổi bật các tên biến, hàm, câu lệnh ngắn với font chữ monospace và nền xám nhạt để dễ phân biệt với văn bản thông thường.
+- Code Block có Syntax Highlighting (```python ... ```): Phân màu trực quan cho từ khóa, chuỗi ký tự, và hàm trong Python, giúp kỹ thuật viên dễ đọc và copy mã nguồn.
+- Bảng so sánh (Table): Trình bày trực quan, căn cột ngăn nắp giúp so sánh nhanh thông số giữa loại cảm biến cũ và mới.
+- Task List ([x] / [ \]): Hiển thị các ô checkbox tương tác, giúp theo dõi tiến độ thi công và kiểm tra thiết bị ngoài thực địa trang trại một cách tiện lợi.
+- Ký tự Escape (\): Hiển thị chính xác các ký tự đặc biệt như `#` hoặc `*` làm văn bản thuần mà không bị trình biên dịch hiểu nhầm thành cú pháp Heading hay định dạng chữ.
